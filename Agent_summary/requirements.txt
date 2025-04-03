@@ -1,0 +1,10 @@
+streamlit
+opencv-python
+ultralytics
+numpy
+phidata
+phi-tools
+google-generativeai
+python-dotenv
+torch
+duckduckgo-search

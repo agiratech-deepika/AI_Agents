@@ -1,0 +1,53 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# Agent_summary/venv/
+# Agent_summary/.env/
+# Agent_summary/yolov8n.pt
+# object_detection/venv/
+# object_detection/.env/
+# object_detection/yolov8n.pt
+# video_summarizer/venv/
+# video_summarizer/.env/
+
+# Ignore all virtual environments inside subfolders
+**/venv/
+
+# Ignore all .env files inside subfolders
+**/.env
+
+# Ignore all YOLO model weights inside subfolders
+**/yolov8n.pt
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd 
+*.so
+*.egg-info/
+*.egg
+*.whl
+*.zip
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tar.xz
+*.tar.lzma
+
+# Jupyter Notebook checkpoints  
+.ipynb_checkpoints
+
+    
+# Pytest cache
+__pycache__/
+.cache
+
+# VS Code settings
+.vscode/
+*.code-workspace

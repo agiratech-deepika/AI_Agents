@@ -110,8 +110,8 @@ if video_file:
 
     if analyze_video:
         user_query = st.text_area("What insights are you seeking from the video?", 
-        placeholder="Ask anything about the video content.The AI agent will analyze and gather additional context if needed"
-        help="Provide specific questions or insights you want from the video.
+        placeholder="Ask anything about the video content.The AI agent will analyze and gather additional context if needed",
+        help="Provide specific questions or insights you want from the video."
         )
         if user_query:
             try:
